@@ -27,6 +27,7 @@ For this meter, the frame is 14 bytes
 Once we know the frame length, we can start decoding individual bits. 
 Data in this meter is sent in such a way that each bit represents one segment on the display. 
 As picture below.
+To make photo of all avaliable symbols, make the foto right after you turn on the device!
 ![Display_Encoding](https://github.com/user-attachments/assets/662f0678-1f7e-40e4-8b05-bc535a702a80)
 
 In order to decode individual halves, it is a good idea to use a laboratory power supply. We set the voltages one by one and compare the resulting strings on the terminal. It is important to read several strings and make sure that they are the same for a given voltage. Any fluctuations can make our work very difficult.
